@@ -1,0 +1,5 @@
+module CLibev [system] {
+  header "/usr/local/include/ev.h"
+  link "ev"
+  export *
+}
